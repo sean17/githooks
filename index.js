@@ -1,3 +1,7 @@
-
-console.log('Thanksgiving');
-console.log('merica');
+module.exports = 
+{
+	double: function(req, next)
+	{
+		next(req*2);
+	}
+};
